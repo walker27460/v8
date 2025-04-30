@@ -2,6 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
+package(default_visibility = ["//visibility:public"])
+
 load("@bazel_skylib//lib:selects.bzl", "selects")
 load("@rules_python//python:defs.bzl", "py_binary", "py_test")
 load("@v8_python_deps//:requirements.bzl", "requirement")
